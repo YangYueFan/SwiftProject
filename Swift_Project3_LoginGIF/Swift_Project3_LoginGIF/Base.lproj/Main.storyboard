@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift_Project3_LoginGIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hfm-fZ-NDO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uan-Dv-HHG">
+                                <rect key="frame" x="37" y="406" width="301" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="a6A-SN-I8d"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpp-2C-Wtq">
+                                <rect key="frame" x="37" y="471" width="301" height="35"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="bfN-4f-uQh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="登陆">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="账号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-91-sQe">
+                                <rect key="frame" x="37" y="356" width="301" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="07U-dr-KsY"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hfm-fZ-NDO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1dh-AR-6ez"/>
+                            <constraint firstItem="hfm-fZ-NDO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Mc-xU-ZmI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bi2-91-sQe" secondAttribute="trailing" constant="21" id="3bn-GR-IV3"/>
+                            <constraint firstItem="Mpp-2C-Wtq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="5Sf-Wk-XdX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hfm-fZ-NDO" secondAttribute="bottom" id="BcG-co-SOd"/>
+                            <constraint firstItem="Mpp-2C-Wtq" firstAttribute="top" secondItem="uan-Dv-HHG" secondAttribute="bottom" constant="30" id="Nj3-qS-qme"/>
+                            <constraint firstAttribute="trailing" secondItem="hfm-fZ-NDO" secondAttribute="trailing" id="S3N-Ke-Np4"/>
+                            <constraint firstItem="uan-Dv-HHG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="SHg-G8-1ce"/>
+                            <constraint firstItem="Bi2-91-sQe" firstAttribute="centerY" secondItem="hfm-fZ-NDO" secondAttribute="centerY" constant="40" id="V4h-05-f7L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mpp-2C-Wtq" secondAttribute="trailing" constant="21" id="YhK-j5-wuE"/>
+                            <constraint firstItem="uan-Dv-HHG" firstAttribute="top" secondItem="Bi2-91-sQe" secondAttribute="bottom" constant="15" id="fX4-1p-Zbs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uan-Dv-HHG" secondAttribute="trailing" constant="21" id="mVl-jg-Nu1"/>
+                            <constraint firstItem="Bi2-91-sQe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="v4X-SP-jS9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accountTF" destination="Bi2-91-sQe" id="82P-pI-d2u"/>
+                        <outlet property="bgImageView" destination="hfm-fZ-NDO" id="786-VH-cl7"/>
+                        <outlet property="loginBtn" destination="Mpp-2C-Wtq" id="Zjx-yr-VRF"/>
+                        <outlet property="passworkTF" destination="uan-Dv-HHG" id="lAQ-mA-PMi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="127.28635682158921"/>
+        </scene>
+    </scenes>
+</document>

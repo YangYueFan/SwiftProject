@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9566E0371F7A051800E0D2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0361F7A051800E0D2CA /* AppDelegate.swift */; };
+		9566E0391F7A051800E0D2CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0381F7A051800E0D2CA /* ViewController.swift */; };
+		9566E03C1F7A051800E0D2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9566E03A1F7A051800E0D2CA /* Main.storyboard */; };
+		9566E03E1F7A051800E0D2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9566E03D1F7A051800E0D2CA /* Assets.xcassets */; };
+		9566E0411F7A051800E0D2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9566E03F1F7A051800E0D2CA /* LaunchScreen.storyboard */; };
+		9566E04C1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E04B1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.swift */; };
+		9566E0571F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0561F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.swift */; };
+		9566E0701F7A057F00E0D2CA /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0681F7A057F00E0D2CA /* MMDrawerBarButtonItem.m */; };
+		9566E0711F7A057F00E0D2CA /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566E06B1F7A057F00E0D2CA /* MMDrawerController.m */; };
+		9566E0721F7A057F00E0D2CA /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566E06D1F7A057F00E0D2CA /* MMDrawerVisualState.m */; };
+		9566E0731F7A057F00E0D2CA /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566E06F1F7A057F00E0D2CA /* UIViewController+MMDrawerController.m */; };
+		9566E0791F7A06FD00E0D2CA /* KenCenterCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0771F7A06FD00E0D2CA /* KenCenterCTL.swift */; };
+		9566E07A1F7A06FD00E0D2CA /* KenCenterCTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9566E0781F7A06FD00E0D2CA /* KenCenterCTL.xib */; };
+		9566E07D1F7A070E00E0D2CA /* KenLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566E07B1F7A070E00E0D2CA /* KenLeftViewController.swift */; };
+		9566E07E1F7A070E00E0D2CA /* KenLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9566E07C1F7A070E00E0D2CA /* KenLeftViewController.xib */; };
+		9566E0811F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566E0801F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9566E0481F7A051900E0D2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9566E02B1F7A051800E0D2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9566E0321F7A051800E0D2CA;
+			remoteInfo = Swift_Projest4_DrawerCTL;
+		};
+		9566E0531F7A051900E0D2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9566E02B1F7A051800E0D2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9566E0321F7A051800E0D2CA;
+			remoteInfo = Swift_Projest4_DrawerCTL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9566E0331F7A051800E0D2CA /* Swift_Projest4_DrawerCTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Projest4_DrawerCTL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9566E0361F7A051800E0D2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9566E0381F7A051800E0D2CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9566E03B1F7A051800E0D2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9566E03D1F7A051800E0D2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9566E0401F7A051800E0D2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9566E0421F7A051800E0D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9566E0471F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_Projest4_DrawerCTLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9566E04B1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Projest4_DrawerCTLTests.swift; sourceTree = "<group>"; };
+		9566E04D1F7A051900E0D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9566E0521F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_Projest4_DrawerCTLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9566E0561F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Projest4_DrawerCTLUITests.swift; sourceTree = "<group>"; };
+		9566E0581F7A051900E0D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9566E0671F7A057F00E0D2CA /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		9566E0681F7A057F00E0D2CA /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		9566E0691F7A057F00E0D2CA /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		9566E06A1F7A057F00E0D2CA /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		9566E06B1F7A057F00E0D2CA /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		9566E06C1F7A057F00E0D2CA /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		9566E06D1F7A057F00E0D2CA /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		9566E06E1F7A057F00E0D2CA /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		9566E06F1F7A057F00E0D2CA /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		9566E0741F7A05A800E0D2CA /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		9566E0771F7A06FD00E0D2CA /* KenCenterCTL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KenCenterCTL.swift; sourceTree = "<group>"; };
+		9566E0781F7A06FD00E0D2CA /* KenCenterCTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KenCenterCTL.xib; sourceTree = "<group>"; };
+		9566E07B1F7A070E00E0D2CA /* KenLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KenLeftViewController.swift; sourceTree = "<group>"; };
+		9566E07C1F7A070E00E0D2CA /* KenLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KenLeftViewController.xib; sourceTree = "<group>"; };
+		9566E07F1F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		9566E0801F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9566E0301F7A051800E0D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E0441F7A051900E0D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E04F1F7A051900E0D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9566E02A1F7A051800E0D2CA = {
+			isa = PBXGroup;
+			children = (
+				9566E0351F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */,
+				9566E04A1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests */,
+				9566E0551F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests */,
+				9566E0341F7A051800E0D2CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9566E0341F7A051800E0D2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0331F7A051800E0D2CA /* Swift_Projest4_DrawerCTL.app */,
+				9566E0471F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.xctest */,
+				9566E0521F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9566E0351F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0641F7A055E00E0D2CA /* External(第三方库) */,
+				9566E0651F7A055E00E0D2CA /* Class */,
+				9566E0361F7A051800E0D2CA /* AppDelegate.swift */,
+				9566E0381F7A051800E0D2CA /* ViewController.swift */,
+				9566E03A1F7A051800E0D2CA /* Main.storyboard */,
+				9566E03D1F7A051800E0D2CA /* Assets.xcassets */,
+				9566E03F1F7A051800E0D2CA /* LaunchScreen.storyboard */,
+				9566E0421F7A051800E0D2CA /* Info.plist */,
+				9566E0741F7A05A800E0D2CA /* BridgeHeader.h */,
+			);
+			path = Swift_Projest4_DrawerCTL;
+			sourceTree = "<group>";
+		};
+		9566E04A1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				9566E04B1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.swift */,
+				9566E04D1F7A051900E0D2CA /* Info.plist */,
+			);
+			path = Swift_Projest4_DrawerCTLTests;
+			sourceTree = "<group>";
+		};
+		9566E0551F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0561F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.swift */,
+				9566E0581F7A051900E0D2CA /* Info.plist */,
+			);
+			path = Swift_Projest4_DrawerCTLUITests;
+			sourceTree = "<group>";
+		};
+		9566E0641F7A055E00E0D2CA /* External(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0661F7A057F00E0D2CA /* MMDrawerController */,
+			);
+			name = "External(第三方库)";
+			path = External;
+			sourceTree = "<group>";
+		};
+		9566E0651F7A055E00E0D2CA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0751F7A06DB00E0D2CA /* Center */,
+				9566E0761F7A06DB00E0D2CA /* Left */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9566E0661F7A057F00E0D2CA /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0671F7A057F00E0D2CA /* MMDrawerBarButtonItem.h */,
+				9566E0681F7A057F00E0D2CA /* MMDrawerBarButtonItem.m */,
+				9566E0691F7A057F00E0D2CA /* MMDrawerController+Subclass.h */,
+				9566E06A1F7A057F00E0D2CA /* MMDrawerController.h */,
+				9566E06B1F7A057F00E0D2CA /* MMDrawerController.m */,
+				9566E06C1F7A057F00E0D2CA /* MMDrawerVisualState.h */,
+				9566E06D1F7A057F00E0D2CA /* MMDrawerVisualState.m */,
+				9566E06E1F7A057F00E0D2CA /* UIViewController+MMDrawerController.h */,
+				9566E06F1F7A057F00E0D2CA /* UIViewController+MMDrawerController.m */,
+				9566E07F1F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.h */,
+				9566E0801F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		9566E0751F7A06DB00E0D2CA /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				9566E0771F7A06FD00E0D2CA /* KenCenterCTL.swift */,
+				9566E0781F7A06FD00E0D2CA /* KenCenterCTL.xib */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		9566E0761F7A06DB00E0D2CA /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				9566E07B1F7A070E00E0D2CA /* KenLeftViewController.swift */,
+				9566E07C1F7A070E00E0D2CA /* KenLeftViewController.xib */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9566E0321F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9566E05B1F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTL" */;
+			buildPhases = (
+				9566E02F1F7A051800E0D2CA /* Sources */,
+				9566E0301F7A051800E0D2CA /* Frameworks */,
+				9566E0311F7A051800E0D2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_Projest4_DrawerCTL;
+			productName = Swift_Projest4_DrawerCTL;
+			productReference = 9566E0331F7A051800E0D2CA /* Swift_Projest4_DrawerCTL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9566E0461F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9566E05E1F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTLTests" */;
+			buildPhases = (
+				9566E0431F7A051900E0D2CA /* Sources */,
+				9566E0441F7A051900E0D2CA /* Frameworks */,
+				9566E0451F7A051900E0D2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9566E0491F7A051900E0D2CA /* PBXTargetDependency */,
+			);
+			name = Swift_Projest4_DrawerCTLTests;
+			productName = Swift_Projest4_DrawerCTLTests;
+			productReference = 9566E0471F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9566E0511F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9566E0611F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTLUITests" */;
+			buildPhases = (
+				9566E04E1F7A051900E0D2CA /* Sources */,
+				9566E04F1F7A051900E0D2CA /* Frameworks */,
+				9566E0501F7A051900E0D2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9566E0541F7A051900E0D2CA /* PBXTargetDependency */,
+			);
+			name = Swift_Projest4_DrawerCTLUITests;
+			productName = Swift_Projest4_DrawerCTLUITests;
+			productReference = 9566E0521F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9566E02B1F7A051800E0D2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ken;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ken;
+				TargetAttributes = {
+					9566E0321F7A051800E0D2CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+					};
+					9566E0461F7A051900E0D2CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9566E0321F7A051800E0D2CA;
+					};
+					9566E0511F7A051900E0D2CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9566E0321F7A051800E0D2CA;
+					};
+				};
+			};
+			buildConfigurationList = 9566E02E1F7A051800E0D2CA /* Build configuration list for PBXProject "Swift_Projest4_DrawerCTL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9566E02A1F7A051800E0D2CA;
+			productRefGroup = 9566E0341F7A051800E0D2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9566E0321F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */,
+				9566E0461F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests */,
+				9566E0511F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9566E0311F7A051800E0D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9566E0411F7A051800E0D2CA /* LaunchScreen.storyboard in Resources */,
+				9566E03E1F7A051800E0D2CA /* Assets.xcassets in Resources */,
+				9566E03C1F7A051800E0D2CA /* Main.storyboard in Resources */,
+				9566E07A1F7A06FD00E0D2CA /* KenCenterCTL.xib in Resources */,
+				9566E07E1F7A070E00E0D2CA /* KenLeftViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E0451F7A051900E0D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E0501F7A051900E0D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9566E02F1F7A051800E0D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9566E0721F7A057F00E0D2CA /* MMDrawerVisualState.m in Sources */,
+				9566E0811F7A330F00E0D2CA /* MMExampleDrawerVisualStateManager.m in Sources */,
+				9566E0791F7A06FD00E0D2CA /* KenCenterCTL.swift in Sources */,
+				9566E0391F7A051800E0D2CA /* ViewController.swift in Sources */,
+				9566E0701F7A057F00E0D2CA /* MMDrawerBarButtonItem.m in Sources */,
+				9566E0731F7A057F00E0D2CA /* UIViewController+MMDrawerController.m in Sources */,
+				9566E0711F7A057F00E0D2CA /* MMDrawerController.m in Sources */,
+				9566E07D1F7A070E00E0D2CA /* KenLeftViewController.swift in Sources */,
+				9566E0371F7A051800E0D2CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E0431F7A051900E0D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9566E04C1F7A051900E0D2CA /* Swift_Projest4_DrawerCTLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566E04E1F7A051900E0D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9566E0571F7A051900E0D2CA /* Swift_Projest4_DrawerCTLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9566E0491F7A051900E0D2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9566E0321F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */;
+			targetProxy = 9566E0481F7A051900E0D2CA /* PBXContainerItemProxy */;
+		};
+		9566E0541F7A051900E0D2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9566E0321F7A051800E0D2CA /* Swift_Projest4_DrawerCTL */;
+			targetProxy = 9566E0531F7A051900E0D2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9566E03A1F7A051800E0D2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9566E03B1F7A051800E0D2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9566E03F1F7A051800E0D2CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9566E0401F7A051800E0D2CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9566E0591F7A051900E0D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9566E05A1F7A051900E0D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9566E05C1F7A051900E0D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Swift_Projest4_DrawerCTL/BridgeHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9566E05D1F7A051900E0D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Swift_Projest4_DrawerCTL/BridgeHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9566E05F1F7A051900E0D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_Projest4_DrawerCTL.app/Swift_Projest4_DrawerCTL";
+			};
+			name = Debug;
+		};
+		9566E0601F7A051900E0D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_Projest4_DrawerCTL.app/Swift_Projest4_DrawerCTL";
+			};
+			name = Release;
+		};
+		9566E0621F7A051900E0D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swift_Projest4_DrawerCTL;
+			};
+			name = Debug;
+		};
+		9566E0631F7A051900E0D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = Swift_Projest4_DrawerCTLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken.Swift-Projest4-DrawerCTLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swift_Projest4_DrawerCTL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9566E02E1F7A051800E0D2CA /* Build configuration list for PBXProject "Swift_Projest4_DrawerCTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9566E0591F7A051900E0D2CA /* Debug */,
+				9566E05A1F7A051900E0D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9566E05B1F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9566E05C1F7A051900E0D2CA /* Debug */,
+				9566E05D1F7A051900E0D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9566E05E1F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9566E05F1F7A051900E0D2CA /* Debug */,
+				9566E0601F7A051900E0D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9566E0611F7A051900E0D2CA /* Build configuration list for PBXNativeTarget "Swift_Projest4_DrawerCTLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9566E0621F7A051900E0D2CA /* Debug */,
+				9566E0631F7A051900E0D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9566E02B1F7A051800E0D2CA /* Project object */;
+}

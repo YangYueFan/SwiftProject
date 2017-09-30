@@ -1,6 +1,6 @@
-echo "# MySwiftProject" >> README.md
+echo "# SwiftProject" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/YangYueFan/MySwiftProject.git
-git push -u origin master
+git remote add SwiftProject https://github.com/YangYueFan/SwiftProject.git
+git push -u SwiftProject master
